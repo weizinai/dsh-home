@@ -1,0 +1,8 @@
+{
+  "name": "@local/dsh-ptc-lite-preset",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A PTC-preset variant without Goal, plan mode, or the unused delegation rows.",
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
